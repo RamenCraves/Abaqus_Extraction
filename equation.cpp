@@ -23,6 +23,10 @@ float Cn_const =0.26;
 float Cn_range =5;
 float step_incr =0.01;
 } trials;
+
+
+
+
 // Function prototype declarations
 f_parameters Defining_Parameters(float Web[],float Thickness[],float R,int
 N[]);
@@ -47,7 +51,7 @@ int sin_theta =1, Fy =284;
 float Ch =0.031, uncertainty =4.4;
 f_parameters variables;
 trials Coefficients;
-for(int i =0; i < numberofData; i++)
+for(int i =0; i < numberofData; i++) 
 {printf("%f ", FEA[i]);}
 printf("\n\n");
 variables = Defining_Parameters(Web, Thickness,R,N);
